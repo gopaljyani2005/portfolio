@@ -1,0 +1,54 @@
+/* education.module.css */
+
+/* General styling for main container */
+.main {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table header styling */
+  .table th {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Table cell styling */
+  .table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Alternating row color */
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for rows */
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Improve table look and feel */
+  .table th,
+  .table td {
+    transition: background-color 0.3s ease;
+  }
+  

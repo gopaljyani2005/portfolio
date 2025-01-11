@@ -1,0 +1,121 @@
+/* styles/Home.module.css */
+
+.container {
+    font-family: Arial, sans-serif;
+    color: black; /* Text set to black */
+    background-color:white; /* Background set to pure white */
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue; /* Logo text color set to blue */
+}
+
+.nav a {
+    color: black; /* Navigation text set to black */
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: blue; /* Hover effect text set to blue */
+}
+
+.hireMe {
+    background-color: blue; /* Button background set to blue */
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white; /* Button text color set to white */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.textSection {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: black; /* Title text color set to black */
+}
+
+.name {
+    font-size: 3rem;
+    color: blue; /* Name text color set to blue */
+}
+
+.description {
+    margin: 1rem 0;
+    color: black; /* Description text set to black */
+}
+
+.downloadCv {
+    background-color: blue; /* Button background set to blue */
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white; /* Button text color set to white */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.imageSection {
+    flex: 0;
+}
+
+.profileImage {
+    width: 400px;
+    height: 450px;
+    background: url('/image/photo.jpg') no-repeat center/cover;
+    border-radius: 50%;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    background-color:white;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer a:hover img {
+    transform: scale(1.7);
+  }
+
+
+  

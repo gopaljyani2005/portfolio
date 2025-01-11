@@ -1,0 +1,87 @@
+:root {
+  --background-color: rgba(176, 159, 159, 0);
+  --card-color: #2b2b2b;
+  --text-color: #f9f9f9;
+  --highlight-color: #ffd700;
+}
+
+.techStack {
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.techStack {
+  text-align: center;
+  color: blue;
+}
+
+.title {
+  font-size: 2em;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.category {
+  background-color: var(--card-color);
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.categoryTitle {
+  font-size: 1.5em;
+  color: var(--highlight-color);
+  margin-bottom: 10px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 75px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  color: var(--text-color);
+  cursor: grab; /* Make it grabable */
+  transition: transform 0.2s ease;
+}
+
+/* When item is dragged */
+.item:active {
+  cursor: grabbing; /* Change cursor when active */
+  transform: scale(1.1); /* Slightly enlarge when active */
+}
+
+.item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.item span {
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+    align-items: center;
+  }
+}

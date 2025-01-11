@@ -1,93 +1,48 @@
+"use client";
 import Image from "next/image";
-import styles from "./page.module.css";
 
+import styles from "../styles/mainpage.module.css";
+import TechStack from "@/components/skills/page";
+
+function downloadfunct(){
+  window.open("https://drive.google.com/file/d/12OHU2Kol2T-ttD1xphspb6HxBIAojc2u/view?usp=sharing");
+}
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className={styles.container}>
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        <section className={styles.hero}>
+          <div className={styles.textSection}>
+            <h2 className={styles.title}>Hello I&apos;m</h2>
+            <h2 className={styles.name}>Gopala Ram Jyani</h2>
+            <p className={styles.description}>
+            Passionate about web development, machine learning, and leveraging modern frameworks like Next.js to design and build innovative, user-centric, and scalable digital solutions that solve real-world problems.
+            </p>
+            <button className={styles.downloadCv} onClick={downloadfunct}>Resume</button>
+            <button className={styles.downloadCv} onClick={() => window.location.href = '/sendmail'}>Send Message</button>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
+          </div>
+
+          <div className={styles.imageSection}>
+            <div className={styles.profileImage}></div>
+          </div>
+        </section>
       </main>
+
+      <TechStack/>
+      
       <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
+        <a href="https://www.linkedin.com/in/gopala-ram-jyani-1734b4274/" target="_blank" rel="noopener noreferrer">
+          <Image src="/image/linkedin.png" alt="LinkedIn" width={30} height={30} />
         </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
+        <a href="https://github.com/gopaljyani2005" target="_blank" rel="noopener noreferrer">
+          <Image src="/image/github-logo.png" alt="GitHub" width={30} height={30} />
         </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
+        <a href="https://leetcode.com/u/jyanigopalaram/" target="_blank" rel="noopener noreferrer">
+          <Image src="/image/leetcode.png" alt="LeetCode" width={30} height={30} />
+        </a>
+        <a href="https://www.instagram.com/jyani__gopal/" target="_blank" rel="noopener noreferrer">
+          <Image src="/image/instagram.png" alt="Instagram" width={30} height={30} />
         </a>
       </footer>
     </div>
