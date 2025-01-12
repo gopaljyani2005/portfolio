@@ -24,17 +24,23 @@ https://gopala-ram-jyani-portfolio.netlify.app/
 - Vercel
 - netlify
 
+---
+
 ## 🚀 Features
+- Showcase of Education
+- Downloadable Resume
+- Interactive Project Portfolio
+- Highlighted Skills
 - Responsive design for all devices
-- Interactive project showcase
 - Contact form integration
-- Optimized for performance and SEO
+
+  ---
 
 
 ## 📜 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/portfolio-website.git
+   git clone https://github.com/YOUR_USERNAME/portfolio-website.git](https://github.com/gopaljyani2005/portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -50,11 +56,14 @@ https://gopala-ram-jyani-portfolio.netlify.app/
    ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📧 Contact
-Have questions or want to connect? Reach me at: [your_email@example.com](mailto:your_email@example.com)
+---
 
-## 📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+### 📧 **Contact Information**
 
-## 🌟 Show Your Support
-If you like my portfolio, please ⭐ this repository and share it with others!
+If you have any questions or need further assistance, feel free to reach out:
+
+- **Email**: [jyanigopalaram@gmail.com](mailto:jyanigopalaram@gmail.com)
+- **LinkedIn**: [Gopala Ram Jyani](https://www.linkedin.com/in/gopala-ram-jyani-1734b4274/)
+- **GitHub**: [Gopaljyani2005](https://github.com/gopaljyani2005/)
+
+---
