@@ -24,7 +24,7 @@
 }
 
 .category {
-    background-color:rgb(197, 189, 189);
+  background-color:rgb(197, 189, 189);
   flex: 1;
   padding: 15px;
   border-radius: 10px;
@@ -42,14 +42,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 75px;
+  gap: 30px;
 }
 
 .item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
   color: var(--text-color);
   cursor: grab; /* Make it grabable */
   transition: transform 0.2s ease;
@@ -62,8 +62,8 @@
 }
 
 .item img {
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   object-fit: contain;
 }
 
