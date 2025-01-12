@@ -1,4 +1,8 @@
-# 🌟 Welcome to My Portfolio Website 🌟
+<div align="center">
+
+### 🌟 Welcome to My Portfolio Website 🌟
+
+</div>
 
 <p align="center">
   <img src="https://github.com/gopaljyani2005/portfolio/blob/main/public/image/logo_web.jpg" alt="project-image" style="border: 2px solid #0078D7; border-radius: 10px;">
@@ -40,7 +44,7 @@ https://gopala-ram-jyani-portfolio.netlify.app/
 ## 📜 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/portfolio-website.git](https://github.com/gopaljyani2005/portfolio.git
+   git clone https://github.com/gopaljyani2005/portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
