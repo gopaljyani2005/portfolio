@@ -1,18 +1,11 @@
-:root {
-  --background-color: rgba(176, 159, 159, 0);
-  --card-color: #2b2b2b;
-  --text-color: #f9f9f9;
-  --highlight-color: #ffd700;
-}
-
 .techStack {
-  background-color: var(--background-color);
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .techStack {
+  background-color:rgb(248, 246, 246);
   text-align: center;
   color: blue;
 }
@@ -31,7 +24,7 @@
 }
 
 .category {
-  background-color: var(--card-color);
+    background-color:rgb(197, 189, 189);
   flex: 1;
   padding: 15px;
   border-radius: 10px;
