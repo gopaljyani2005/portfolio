@@ -10,9 +10,9 @@ export default function Header(){
         <h1><i>Indian Institute Of Technology</i></h1>
         <nav className={styles.nav}>
           <a href="./">Home</a>
-          <a href="/education">Education</a>
           <a href="/about">About Me</a>
           <a href="/Project">Project</a>
+          <a href="/education">Education</a>
           <a href="/contact">Contact</a>
         </nav>
       </header>

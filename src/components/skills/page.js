@@ -3,7 +3,6 @@ import styles from "../../styles/TechStack.module.css";
 export default function TechStack() {
   return (
     <div className={styles.techStack}>
-      <h1>Technical Skills</h1>
       <h1 className={styles.title}>Tech Stack</h1>
       <div className={styles.categories}>
         {/* Languages Section */}

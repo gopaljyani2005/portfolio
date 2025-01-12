@@ -2,16 +2,15 @@
 import { useState } from "react";
 import Link from "next/link";
 import styles from "../../styles/form.module.css";
+
 export default function sendmail(){
     const [Username,setUsername] = useState("");
     const [email,setemail] = useState("");
     const [message,setmessage] = useState("");
-    function loginfunct(){
-        alert("message is send successfully");
-        setUsername("");
-        setemail("");
-        setmessage("");
-
+    
+    async function loginfunct(e){
+        e.preventDefault();
+        
     }
     return(
         <main className={styles.page}>

@@ -118,4 +118,19 @@
   }
 
 
-  
+  /* Button.module.css */
+.downloadCv {
+    background-color:blue; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 25px; /* Adjust font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.downloadCv:hover {
+    transform: scale(1.2);
+    background-color: #0a0a0a; /* Darker green on hover */
+}

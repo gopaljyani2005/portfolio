@@ -5,7 +5,7 @@ export default function Project() {
     <div>
       <div className={styles.projectContainer}>
         <div className={styles.projectHeader}>
-          <h3 className={styles.projectTitle}>SkillSprint</h3>
+          <h3 className={styles.projectTitle}>Online-Quiz-Portal</h3>
           <span className={styles.projectDetails}>
 
           </span>

@@ -19,8 +19,6 @@ export default function Home() {
             Passionate about web development, machine learning, and leveraging modern frameworks like Next.js to design and build innovative, user-centric, and scalable digital solutions that solve real-world problems.
             </p>
             <button className={styles.downloadCv} onClick={downloadfunct}>Resume</button>
-            <button className={styles.downloadCv} onClick={() => window.location.href = '/sendmail'}>Send Message</button>
-
           </div>
 
           <div className={styles.imageSection}>
